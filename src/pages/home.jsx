@@ -4,6 +4,7 @@ import SecondSection from '../components/home/secondSection';
 import SecondCarousel from '../components/home/secondCarousel';
 import ThirdSection from '../components/home/thirdSection';
 import FourSection from '../components/home/fourSection';
+import FiveSection from '../components/home/fiveSection';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <SecondCarousel/>
             <ThirdSection/>
             <FourSection/>
+            <FiveSection/>
         </div>
     );
 };

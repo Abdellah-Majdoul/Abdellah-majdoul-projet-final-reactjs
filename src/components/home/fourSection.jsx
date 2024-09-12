@@ -3,7 +3,7 @@ import logo from "../../constant/images"
 const FourSection = () => {
     return (
         <div>
-            <div className='h-[20vh] bg-slate-400 flex justify-center items-center'>
+            <div className='h-[20vh] flex justify-center items-center'>
                 <h1 className='text-3xl font-bold'>OUR BLOG</h1>
             </div>
             <div className=' h-[80vh] flex gap-[5rem] justify-center items-center'>
