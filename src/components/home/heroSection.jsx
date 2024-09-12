@@ -6,7 +6,7 @@ const HeroSection = () => {
     
       
     return (
-        <div>
+        <div >
             
             <Swiper
             slidesPerView={1}
