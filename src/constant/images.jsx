@@ -1,11 +1,11 @@
 export default{
-    banner2 : require("../assets/images/banner-02.jpg"),
     banner3 : require("../assets/images/banner-07.jpg"),
     banner4 : require("../assets/images/banner-08.jpg"),
     banner5 : require("../assets/images/banner.webp"),
     bgVideo : require("../assets/images/bg-video-01.jpg.webp"),
     blog1: require("../assets/images/blog-01.jpg"),
     blog2 : require("../assets/images/blog-02.jpg"),
+    banner2 : require("../assets/images/banner-02.jpg"),
     blog3 : require("../assets/images/blog-03.jpg"),
     carousel1 : require("../assets/images/carousel1.jpg"),
     carousel2 : require("../assets/images//carousel2.jpg"),
@@ -27,5 +27,6 @@ export default{
     logo : require("../assets/images/logo.png.webp"),
     paypal : require("../assets/images/paypal.png.webp"),
     shop : require("../assets/images/shop-item-09-removebg-preview.png"),
+    about: require("../assets/images/about_top.webp"),
     visa : require("../assets/images/visa.png.webp")
 }
