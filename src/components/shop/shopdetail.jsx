@@ -54,7 +54,7 @@ const ShopDetail = () => {
               </div>
               <div className='flex gap-9'>            
               <p class="text-gray-600 mb-4">Brand: {findobj.brand}</p>
-              <p className='text-gray-600 mb-4'>categorie: {findobj.categories}</p>
+              <p className='text-gray-600 mb-4'>categorie: {findobj.categories.join(" - ")}</p>
               </div>
               
               <div class="flex space-x-4 mb-6">
