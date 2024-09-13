@@ -20,7 +20,7 @@ const Navbar = () => {
   </label>
   <nav aria-label="Header Navigation" class="peer-checked:pt-8 peer-checked:max-h-60 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
     <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
-      <li class="lg:mr-12"><a class="rounded text-gray-700 " href="home">Home</a></li>
+      <li class="lg:mr-12"><a class="rounded text-gray-700 " href="/">Home</a></li>
       <li class="lg:mr-12"><a class="rounded text-gray-700 " href="shop">shop</a></li>
       <li class="lg:mr-12"><a class="rounded text-gray-700 " href="#">Blog</a></li>
       <li class="lg:mr-12"><a class="rounded text-gray-700 " href="#">About</a></li>

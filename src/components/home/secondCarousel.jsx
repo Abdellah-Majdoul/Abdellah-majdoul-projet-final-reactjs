@@ -3,9 +3,10 @@ import images from "../../constant/images"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {  Navigation } from 'swiper/modules';
 import { UseAppContext } from '../../context';
+import { useNavigate } from 'react-router-dom';
 const SecondCarousel = () => {
     const {dataJson} =UseAppContext()
-    
+    const navigate = useNavigate()
     return (
         <div>
         <p className='text-[35px] font-semibold text-center pt-[6rem] pb-10'>FEATURED PRODUCTS</p>
@@ -24,7 +25,7 @@ className="mySwiper"
                         <div className='flex-col pb-[5rem] '>
                         <img src={images[e.image]} className='w-[23vw] h-[50vh]' alt="" />
                         <div>
-                            <h1>{e.title}</h1>
+                            <h1 className='cursor-pointer hover:text-red-600' onClick={() => { navigate(`/shop/${e.id}`) }}>{e.title}</h1>
                             <p>{e.price}</p>
                         </div>
                         </div>

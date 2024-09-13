@@ -8,7 +8,7 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "This is a modern boxy t-shirt with roll-up sleeve details. Designed for comfort and casual styling, it's perfect for everyday wear.",
-        "additional Infromations": "Care instructions: Machine wash cold. Do not bleach. Tumble dry low. Shipping and return policies available upon checkout."
+        "additionalInfromations": "Care instructions: Machine wash cold. Do not bleach. Tumble dry low. Shipping and return policies available upon checkout."
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "This versatile t-shirt offers a relaxed fit with a stylish roll-up sleeve. Made from soft, breathable fabric for all-day wear.",
-        "additional Infromations": "Shipping within 3-5 business days. Returns accepted within 30 days of purchase. Check size chart before ordering."
+        "additionalInfromations": "Shipping within 3-5 business days. Returns accepted within 30 days of purchase. Check size chart before ordering."
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "A boxy t-shirt perfect for layering or wearing alone. The roll-up sleeve adds a touch of casual chic.",
-        "additional Infromations": "Free shipping on orders over $50. Return policies apply. Please review size guidelines before purchasing."
+        "additionalInfromations": "Free shipping on orders over $50. Return policies apply. Please review size guidelines before purchasing."
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "A premium boxy t-shirt featuring rolled sleeves and a soft-touch fabric. Designed for casual elegance.",
-        "additional Infromations": "Ships within 2-3 business days. Hassle-free returns within 14 days. Refer to the size chart for accurate fit."
+        "additionalInfromations": "Ships within 2-3 business days. Hassle-free returns within 14 days. Refer to the size chart for accurate fit."
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "Elevate your wardrobe with this stylish boxy t-shirt. Perfect for pairing with jeans or shorts for a laid-back look.",
-        "additional Infromations": "Wash inside out for longer durability. 30-day return policy. Contact support for shipping-related queries."
+        "additionalInfromations": "Wash inside out for longer durability. 30-day return policy. Contact support for shipping-related queries."
     },
     {
         "id": 6,
@@ -63,7 +63,7 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "An everyday essential, this t-shirt is designed with a relaxed fit and roll-up sleeve detail for a casual vibe.",
-        "additional Infromations": "Available in multiple sizes and colors. Standard shipping within 5-7 business days. Return policy applies."
+        "additionalInfromations": "Available in multiple sizes and colors. Standard shipping within 5-7 business days. Return policy applies."
     },
     {
         "id": 7,
@@ -74,7 +74,7 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "Casual and comfortable, this boxy t-shirt is great for laid-back days. The roll sleeve design adds extra style.",
-        "additional Infromations": "Returns accepted within 14 days of delivery. Shipping fees may apply. Review the care instructions on the label."
+        "additionalInfromations": "Returns accepted within 14 days of delivery. Shipping fees may apply. Review the care instructions on the label."
     },
     {
         "id": 8,
@@ -85,6 +85,6 @@
         "categories": ["boxy", "Shirts", "sleeveless"],
         "brand": "MyVendor",
         "description": "Designed for both style and comfort, this boxy t-shirt comes with roll-up sleeves for an effortlessly chic look.",
-        "additional Infromations": "Machine washable. Returns must be initiated within 7 days. Refer to our FAQ for shipping details."
+        "additionalInfromations": "Machine washable. Returns must be initiated within 7 days. Refer to our FAQ for shipping details."
     }
 ]
