@@ -18,12 +18,12 @@ const ThirdSection = () => {
                 <div className='absolute bottom-[8rem]'><h1>titre</h1>
                 <p>12</p>
                 </div>
-                </div>
-                <div className=' flex justify-center gap-10 '>
+                <div className=' flex justify-center gap-10  absolute bottom-[3rem]'>
                     <div className=' flex flex-col border border-black px-2 py-1 '><h1> -2082</h1><span>Days</span></div>
                     <div className=' flex flex-col border border-black px-2 py-1 '><h1> -21</h1><span>hrs</span></div>
                     <div className=' flex flex-col border border-black px-2 py-1 '><h1> -47</h1><span>min</span></div>
                     <div className=' flex flex-col border border-black px-2 py-1 '><h1> -42</h1><span>Secs</span></div>
+                </div>
                 </div>
                 
             </div>

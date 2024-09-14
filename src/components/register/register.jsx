@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { UseAppContext } from '../../context';  
+import { Link } from 'react-router-dom';
 
 const Register = () => {
   const { user, setUser } = UseAppContext();  
@@ -20,17 +21,22 @@ const Register = () => {
     
     if (user.firstName && user.email && user.password) {
       setSubmitted(true); 
-      console.log('Form Data:', user); 
+      console.log('user:', user); 
     }
   };
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
-      <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-center mb-6">Register</h2>
+      <div className="w-full  bg-white p-8 rounded-lg ">
+        <h1 className="text-5xl  mb-6">Create Account</h1>
+        <p className="text-2xl text-gray-500 mb-6">Your Personal Details</p>
         
         {submitted ? (
-          <div className="text-green-600 font-semibold text-center">Registration successful!</div>
+          <div className="text-green-600 flex flex-col gap-5 items-center font-semibold ">
+          <h1>Registration successful!</h1> 
+          <button className='bg-black w-[10vw] py-4 text-white'><Link to={"/"}>login</Link></button>
+          </div>
+
         ) : (
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
@@ -41,7 +47,7 @@ const Register = () => {
                 value={user.firstName}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-[70vw] px-3 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div className="mb-4">
@@ -52,7 +58,7 @@ const Register = () => {
                 value={user.email}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-[70vw] px-3 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div className="mb-6">
@@ -63,15 +69,18 @@ const Register = () => {
                 value={user.password}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-[70vw] px-3 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
+            <div>
             <button 
               type="submit" 
-              className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300"
+              className="w-[17vw] bg-black hover:bg-blue-600 text-white font-bold py-5 px-4 "
             >
-              Register
+              Register 
             </button>
+            <span> or <Link className='hover:text-red-600 cursor-pointer text-2xl' to={"/home"}>Return Store</Link></span>
+            </div>
           </form>
         )}
       </div>
