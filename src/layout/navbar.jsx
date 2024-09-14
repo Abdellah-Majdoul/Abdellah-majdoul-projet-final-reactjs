@@ -21,7 +21,7 @@ const Navbar = () => {
   </label>
   <nav aria-label="Header Navigation" class="peer-checked:pt-8 peer-checked:max-h-60 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
     <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
-      <li class="lg:mr-12"> <Link class="rounded text-gray-700 " to={"/"}>Home</Link></li>
+      <li class="lg:mr-12"> <Link class="rounded text-gray-700 " to={"/home"}>Home</Link></li>
       <li class="lg:mr-12"><Link class="rounded text-gray-700 " to={"/shop"}>shop</Link></li>
       <li class="lg:mr-12"><Link class="rounded text-gray-700 " to={"/blog"}>Blog</Link></li>
       <li class="lg:mr-12"><Link class="rounded text-gray-700 " to={"/about"}>About</Link></li>
@@ -29,7 +29,7 @@ const Navbar = () => {
     </ul>
     <hr class="mt-4 w-full lg:hidden" />
     <div class="my-2 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
-        <FaRegUserCircle className='text-2xl' />
+        <Link to={"/"}><FaRegUserCircle className='text-2xl' /></Link>
         <FaShoppingCart  className='text-2xl' />
     </div>
   </nav>

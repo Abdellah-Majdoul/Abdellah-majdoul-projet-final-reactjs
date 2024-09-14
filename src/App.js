@@ -7,6 +7,9 @@ import Shop from './pages/shop';
 import ShopDetail from './components/shop/shopdetail';
 import AboutPage from './pages/about';
 import ContactPage from './pages/contact';
+import AccueilPage from './pages/accueil';
+import LoginPage from './pages/login';
+import RegisterPage from './pages/register';
 
 function App() {
   return (
@@ -14,11 +17,14 @@ function App() {
       <MyProvider>
           <Navbar/>
           <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage/>} />
           <Route path="/shop" element={<Shop/>} />
           <Route path="/shop/:id" element={<ShopDetail/>} />
           <Route path="/contact" element={<ContactPage/>} />
+          <Route path="/" element={<AccueilPage/>} />
+          <Route path="/login" element={<LoginPage/>} />
+          <Route path="/register" element={<RegisterPage/>} />
           </Routes>
           <Footer/>
       </MyProvider>
